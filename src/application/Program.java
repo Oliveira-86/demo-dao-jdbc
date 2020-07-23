@@ -20,7 +20,11 @@ public class Program {
 			System.out.println(obj);
 		}
 		
-		
+		System.out.println("=== test: findAll ===");
+		list = sellerDao.findAll();
+		for (Seller obj : list) {
+			System.out.println(obj);
+		}
 	}
 
 }
